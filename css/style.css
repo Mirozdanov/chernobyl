@@ -456,7 +456,7 @@ main {
 }
 
 .s20 {
-  grid-template-rows: auto auto 1fr 1fr auto;
+  grid-template-rows: auto auto 1fr 1fr 1fr;
 }
 .s20 h2 {
   grid-column: span 3;
@@ -467,11 +467,11 @@ main {
 }
 .s20 .i20-2 {
   grid-column: 1/4;
-  grid-row: 1/6;
+  grid-row: 2;
 }
 .s20 .i20-1 {
   grid-column: 4/7;
-  grid-row: 4/6;
+  grid-row: 3/6;
 }
 
 .s21 {
