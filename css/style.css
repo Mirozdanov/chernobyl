@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Special Elite";
-  src: url("/font/SpecialElite.ttf");
+  src: url("font/SpecialElite.ttf");
 }
 body {
   margin: 0;
