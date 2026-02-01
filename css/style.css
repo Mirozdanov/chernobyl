@@ -100,18 +100,18 @@ main {
   height: 100%;
 }
 
-.slide h2, .slide p, .slide img, .slide video {
+.slide h2, .slide p, .slide img, .slide video, .slide a {
   opacity: 0%;
   transition: 0.5s opacity ease-out;
 }
 
-.slide.active-slide img, .slide.active-slide h2, .slide.active-slide p, .slide.active-slide video {
+.slide.active-slide img, .slide.active-slide h2, .slide.active-slide p, .slide.active-slide video, .slide.active-slide a {
   opacity: 100%;
 }
 .slide.active-slide h2 {
   transition: 1.5s opacity ease 0.4s;
 }
-.slide.active-slide p {
+.slide.active-slide p, .slide.active-slide a{
   transition: 1.5s opacity ease 0.8s;
 }
 .slide.active-slide img, .slide.active-slide video {
