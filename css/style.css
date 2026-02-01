@@ -109,13 +109,13 @@ main {
   opacity: 100%;
 }
 .slide.active-slide h2 {
-  transition: 0.6s opacity ease 0.2s;
+  transition: 1s opacity ease 0.2s;
 }
 .slide.active-slide p {
-  transition: 0.6s opacity ease 0.4s;
+  transition: 1s opacity ease 0.4s;
 }
 .slide.active-slide img, .slide.active-slide video {
-  transition: 0.6s opacity ease 0.6s;
+  transition: 1s opacity ease 0.6s;
 }
 
 .s1 {
